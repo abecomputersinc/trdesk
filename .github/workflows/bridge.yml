@@ -13,7 +13,7 @@ env:
 
 jobs:
   generate_bridge:
-    runs-on: self-hosted
+    runs-on: [self-hosted,Linux,X64]
     strategy:
       fail-fast: false
       matrix:
